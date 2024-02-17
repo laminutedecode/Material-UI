@@ -1,6 +1,6 @@
 // npm install @mui/material @emotion/react @emotion/styled
 
-import Buttons from './components/02.Buttons/buttons.tsx'
+import Toggle from './components/04.Toggle/toggle'
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Buttons />
+    <Toggle />
      
     </>
   )
