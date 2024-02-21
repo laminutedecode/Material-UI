@@ -1,8 +1,9 @@
-import React from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import CardActions from '@mui/material/CardActions';
+import Button from '@mui/material/Button';
 
 const CardElement = () => {
   return (
@@ -21,6 +22,10 @@ const CardElement = () => {
           Description de l'image
         </Typography>
       </CardContent>
+      <CardActions>
+        <Button size="small">Action 1</Button>
+        <Button size="small">Action 2</Button>
+      </CardActions>
     </Card>
   );
 };

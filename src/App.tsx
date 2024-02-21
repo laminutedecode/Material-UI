@@ -1,7 +1,6 @@
 // npm install @mui/material @emotion/react @emotion/styled
 
-import CardElement from './components/10.Cards/CardElement'
-import './App.css'
+import ImgData from "./components/12.ListImgs/ImgData"
 
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
 
-    <CardElement />
+    <ImgData  />
     </>
   )
 }
