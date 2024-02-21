@@ -14,6 +14,7 @@ export default function Buttons(){
           <Button variant="contained">Contained</Button>
           {/* bouton border */}
           <Button variant="outlined">Outlined</Button>
+     
           {/* Créer lien à partir d'un bouton */}
           <Button variant="outlined" href="https://laminutedecode.com">Link</Button>
         </Stack>

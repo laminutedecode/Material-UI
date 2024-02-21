@@ -10,6 +10,11 @@ export default function Typographies(){
     <Typography variant="h4">H4 - Title</Typography>
     <Typography variant="h5">H5 - Title</Typography>
     <Typography variant="h6">H6 - Title</Typography>
+    <Typography variant="body1">Texte body 1</Typography>
+    <Typography variant="body2">Texte body 2</Typography>
+    <Typography variant="caption">Caption</Typography>
+    <Typography variant="button">Texte button</Typography>
+    <Typography variant="overline">Texte overline</Typography>
 
     <Typography variant="subtitle1">Subtitle 1</Typography>
     <Typography variant="subtitle2" component="p" gutterBottom>Subtitle 2</Typography>

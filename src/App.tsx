@@ -1,15 +1,16 @@
 // npm install @mui/material @emotion/react @emotion/styled
 
-import ImgData from "./components/12.ListImgs/ImgData"
-
+import MuiBadge from './components/23.Chip/MuiChip'
 
 function App() {
 
 
   return (
     <>
+  
 
-    <ImgData  />
+  
+    <MuiBadge  />
     </>
   )
 }
